@@ -1,0 +1,95 @@
+@font-face {
+  font-family: black;
+  src: url(black.ttf);
+}
+
+@font-face {
+  font-family: outline;
+  src: url(outline.ttf);
+}
+
+#about-ref,
+#work-ref {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.parallax-window {
+    min-height: 400px;
+    background: transparent;
+}
+
+.brand-logo {
+  margin-left: 20px;
+}
+
+
+.name {
+  font-size: 98px;
+  min-width: 450px;
+  display: block;
+  color: white;
+}
+
+#section-head {
+  font-size: 30px;
+}
+
+#about-content {
+  max-width: 300px;
+}
+
+#techicon {
+  margin: 30px 0;
+  text-align: center;
+}
+
+.devicon {
+  font-size: 100px;
+  text-align: center;
+}
+
+#work-content li {
+  display: inline-block;
+  min-width: 800px;
+}
+
+#work1 {
+  float: left;
+}
+
+#work2 {
+  float: right;
+  width: 600px;
+  padding: 40px 20px 20px 20px;
+}
+
+#work-img {
+  border-radius: 3px;
+  width: 200px;
+  height: 200px;
+  max-width: 200px;
+  max-height: 200px;
+}
+
+.bwWrapper {
+  position:relative;
+  display:block;
+}
+
+
+#contact-list li {
+  display: inline;
+  margin: 0 50px;
+}
+
+#contact-list {
+  text-align: center;
+  min-width: 640px;
+}
+
+#copyright {
+  text-align: right;
+  margin-right: 50px;
+  color: white;
+}
