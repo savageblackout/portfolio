@@ -1,13 +1,15 @@
 @font-face {
-  font-family: black;
-  src: url(black.ttf);
+  font-family: 'TrajanPro-Regular' !important;
+  src: url(TrajanPro-Regular.ttf);
 }
 
 @font-face {
-  font-family: outline;
-  src: url(outline.ttf);
+  font-family: 'TrajanPro-Regular'
+  src: url(TrajanPro-Regular.ttf);
 }
-
+body {
+  font-family: 'TrajanPro-Regular';
+}
 #about-ref,
 #work-ref {
   padding-top: 70px;
@@ -20,15 +22,7 @@
 }
 
 .brand-logo {
-  margin-left: 20px;
-}
-
-
-.name {
-  font-size: 98px;
-  min-width: 450px;
-  display: block;
-  color: white;
+  margin-left: 10px;
 }
 
 #section-head {
@@ -70,11 +64,6 @@
   height: 200px;
   max-width: 200px;
   max-height: 200px;
-}
-
-.bwWrapper {
-  position:relative;
-  display:block;
 }
 
 
