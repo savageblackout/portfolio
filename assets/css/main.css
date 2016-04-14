@@ -28,10 +28,16 @@ img.grayscale:hover {
 }
 
 .parallax-window {
-    min-height: 400px;
+    min-height: 500px;
     background: transparent;
 }
 
+.navbar-fixed {
+  height: 75px;
+}
+.navbar-fixed h3 {
+  margin: 1rem 0 1.168rem 0;
+}
 .brand-logo {
   margin-left: 10px;
 }
@@ -82,10 +88,8 @@ img.grayscale:hover {
   padding: 40px 20px 20px 20px;
 }
 .headshot img {
-  max-width: 250px;
-  max-height: 250px;
-  border-radius: 50%;
-
+  max-width: 400px;
+  max-height: 400px;
 }
 
 #work-img {
