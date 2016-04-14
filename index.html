@@ -6,13 +6,14 @@
   <title>S A V A G E B L A C K O U T</title>
   <link rel="stylesheet" href="/assets/css/main.css">
   <link rel="icon" type="image/ico" href="favicon.ico">
+  <link href='https://fonts.googleapis.com/css?family=Questrial' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">
   <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-  <script src="/path/to/parallax.js"></script>
 
 </head>
 <body>
@@ -24,18 +25,25 @@
       <a href="#home-ref" class="brand-logo left">SAVAGE BLACKOUT</a>
       <ul id="nav-mobile" class="right">
         <li><a href="#about-ref">About</a></li>
+        <li><a href="#skills-ref">Skills</a></li>
         <li><a href="#work-ref">Work</a></li>
         <li><a href="#contact-ref">Contact</a></li>
       </ul>
     </div>
   </nav>
 </div>
-<div class="parallax-window" data-parallax="scroll" data-image-src="assets/header_.jpg"></div>
+<div class="parallax-window" data-parallax="scroll" data-image-src="assets/fire_sky_tree.JPG"></div>
 
 <!-- ABOUT -->
 <div id="about-ref" class="section white">
   <div id="cols" class="row container">
-    <div class="col s4 col1">
+    <div class="about-header">
+      <h2><strong>Front End Web Developer | UX Designer | Photographer</strong></h2>
+    </div>
+    <div id="cols" class="col-xs-12 col-sm-6 col-md-8 row container headshot">
+      <img class="grayscale me" src="https://i.imgur.com/XIDzPRn.jpg">
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-8">
       <div id="about-content">
         <p>As a web developer with clinical social work experience, I am
         essentially a problem-solving super star; an extensive background
@@ -44,7 +52,7 @@
         achieve a unified goal.</p>
       </div>
     </div>
-    <div class="col s4 col2 #eeeeee grey lighten-3">
+    <div class="col-xs-12 col-sm-6 col-md-8">
       <div id="about-content">
         <p>Owning my own photography business has helped me to sharpen my
         artistry and resourcefulness, which in turn has inspired me to
@@ -52,7 +60,7 @@
         applications.</p>
       </div>
     </div>
-    <div class="col s4 col3">
+    <div class="col-xs-12 col-sm-6 col-md-8">
       <div id="about-content">
         <p>My training in social work combined with my entrepeurial spirit
         and knowledge of full-stack and front end web development makes
@@ -63,10 +71,18 @@
     </div>
   </div>
 </div>
+<div>
+    <div class="parallax-window" data-parallax="scroll" data-image-src="assets/fire_sky_birds.jpg"></div>
+</div>
+<!-- SKILLS -->
+<div id="skills-ref" class="section white">
+  <div id="cols" class="row container">
 
+  </div>
+</div>
 <!-- WORK -->
 <div>
-    <div class="parallax-window" data-parallax="scroll" data-image-src="assets/cuttlefish.jpg"></div>
+    <div class="parallax-window" data-parallax="scroll" data-image-src="assets/fire_sky_birds.jpg"></div>
 </div>
 
 <div id="work-ref" class="section white">
@@ -75,7 +91,7 @@
       <li id="work-item">
         <div id="work1">
           <a target="_blank" href="http://savageblackout.github.io/project1_trivia/">
-            <img id="work-img" src="https://i.imgur.com/za262OJ.jpg">
+            <img class="grayscale" id="work-img" src="https://i.imgur.com/bG2Yx55.jpg">
           </a>
         </div>
         <div id="work2">
@@ -88,7 +104,7 @@
         <li id="work-item">
           <div id="work1">
             <a target="_blank" href="https://pacific-sea-32437.herokuapp.com/">
-              <img id="work-img" src="https://i.imgur.com/lTuESUD.jpg">
+              <img class="grayscale" id="work-img" src="https://i.imgur.com/uHt4BTd.jpg">
             </a>
           </div>
           <div id="work2">
@@ -102,18 +118,14 @@
         <li id="work-item">
           <div id="work1">
             <a target="_blank" href="https://hidden-sea-10254.herokuapp.com/">
-              <img id="work-img" src="https://i.imgur.com/2Gh049W.jpg">
+              <img class="grayscale" id="work-img" src="https://i.imgur.com/4TObnhq.png">
             </a>
           </div>
           <div id="work2">
             <div id="work-name">OURrestroom</div>
             <p>OURrestroom is a MEAN-stack application that is part of a movement
             to educate business owners about the benefits of providing gender
-            non-specific single-stall restrooms. Patrons can anonymously submit
-            the name and address of a business that has single-stall restrooms
-            that are gendered, and we will do the rest! The business will receive
-            a postcard with facts about the benefits of creating a space for all
-            of their patrons that is comfortable and easy to use.</p>
+            non-specific single-stall restrooms.</p>
           </div>
         </li>
       </ul>
@@ -146,7 +158,6 @@
 
 <script src="main.js"></script>
 <script src="parallax.js"></script>
-<script src="parallax.min.js"></script>
 
 </body>
 </html>
