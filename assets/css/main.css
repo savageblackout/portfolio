@@ -4,6 +4,7 @@ h1 h2 h3 {
 
 body {
   font-family: 'Lato', sans-serif;
+  font-size: 17px;
 }
 
 #about-ref,
@@ -28,11 +29,9 @@ i {
     background: transparent;
 }
 
-.navbar-fixed {
-  height: 75px;
-}
 .navbar-fixed h3 {
-  margin: 1rem 0 1.168rem 0;
+  margin: 0.55rem 0 1.168rem 0;
+
 }
 .brand-logo {
   margin-left: 10px;
@@ -81,8 +80,8 @@ i {
 }
 
 .skills {
-  height: 100px;
-  padding-top: 2rem !important;
+  height: 200px;
+  padding-top: 5rem !important;
 }
 
 #contact-list li {
@@ -99,4 +98,7 @@ i {
   text-align: right;
   margin-right: 50px;
   color: white;
+}
+.hidden {
+  display: none;
 }
