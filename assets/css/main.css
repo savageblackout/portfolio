@@ -1,7 +1,3 @@
-@font-face {
-  font-family: 'Lato', sans-serif;
-}
-
 h1 h2 h3 {
   font-family: 'Questrial', sans-serif !important;
 }
@@ -20,8 +16,6 @@ i {
   font-size: 30px;
   padding-right: 5px
 }
-
-
 
 .devicons {
   display: flex;
@@ -52,15 +46,6 @@ i {
   max-width: 100px;
   display: inline;
 }
-
-/*.col1 {
-  height: 238px;
-}*/
-
-/*.col1 img {
-  max-width: 100%;
-  max-height: 100%;
-}*/
 
 #techicon {
   margin: 30px 0;
@@ -93,6 +78,11 @@ i {
   height: 200px;
   max-width: 290px;
   max-height: 200px;
+}
+
+.skills {
+  height: 100px;
+  padding-top: 2rem !important;
 }
 
 #contact-list li {
