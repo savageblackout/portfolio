@@ -3,16 +3,11 @@ $(document).ready(function(){
 
   $('#name').hover(function() {
     $main_text=$(this).text();
-    $(this).text("CLAIRE SAVAGE");
+    $(this).text("CLAIRE SAVAGE").fadeIn();
   }, function() {
     $(this).text($main_text);
 
   });
-
-  // $('#name').mouseover(function() {
-  //   $('#name').addClass('hidden');
-  //   $('#real').removeClass('hidden');
-  // });
 
   $('nav a').click(function () {
    var $href = $(this).attr('href');
