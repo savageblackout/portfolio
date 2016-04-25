@@ -46,6 +46,10 @@ i {
   display: inline;
 }
 
+#mom-ref span {
+  font-size: 2rem;
+}
+
 #techicon {
   margin: 30px 0;
   text-align: center;
