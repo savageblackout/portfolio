@@ -1,9 +1,24 @@
-@media(min-width: 60em){
+@media(min-width: 400px){
+  html{font-size: 100%;}
+}
+
+@media(min-width: 600px){
+  html{font-size: 100%;}
+}
+
+@media(min-width: 800px){
+  html{font-size: 100%;}
+}
+
+@media(min-width: 1200px){
   html{font-size: 100%;}
 }
 
 html{font-size:110%;}
-@media(min-width:60em){html{font-size: 90%}}
+@media(min-width:60em){
+  html{font-size: 90%};
+  h1 h2 h3{font-size: 75%;}
+}
 
 h1 h2 h3 {
   font-family: 'Questrial', sans-serif !important;
@@ -78,6 +93,7 @@ header {
 body {
   font-family: 'Lato', sans-serif;
   font-size: 17px;
+  max-width: 18000px;
 }
 
 #about-ref,
