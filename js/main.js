@@ -30,7 +30,7 @@ $(document).ready(function(){
    var $href = $(this).attr('href');
    $('body').stop().animate({
      scrollTop: $($href).offset().top
-   }, 1000);
+   }, 1500);
    return false;
   });
 
