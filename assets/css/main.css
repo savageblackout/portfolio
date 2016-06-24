@@ -1,9 +1,18 @@
+@media (min-width: 200px) and (max-width: 479){
+  html {font-size: 25%; max-width: 480px}
+  img {max-width: 25%;}
+  #name{font-size: 90%;}
+  .parallax-window{max-width: 480px; max-height: 250px}
+  /*p{max-width: 300px}*/
+}
 
 /* Extra small devices (phones, up to 480px) */
 @media screen and (max-width: 767px) {
-  html {font-size: 25%;}
+  html {font-size: 25%; max-width: 480px}
   img {max-width: 25%;}
   #name{font-size: 90%;}
+  .parallax-window{max-width: 480px; max-height: 250px}
+  /*#work2 p{max-width: 300px}*/
 }
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991px) {

@@ -25,6 +25,13 @@ $(document).ready(function(){
     });
   });
 
+  $( ".cross" ).click(function() {
+    $( ".menu" ).slideToggle( "slow", function() {
+      $( ".cross" ).hide();
+      $( ".hamburger" ).show();
+    });
+  });
+
 
   $('nav a').click(function () {
    var $href = $(this).attr('href');
