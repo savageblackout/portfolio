@@ -3,7 +3,7 @@
   img {max-width: 25%;}
   #name{font-size: 90%;}
   .parallax-window{max-width: 480px; max-height: 250px}
-  /*p{max-width: 300px}*/
+  #work-1{position: relative; display: block; float: left;}
 }
 
 /* Extra small devices (phones, up to 480px) */
@@ -12,7 +12,7 @@
   img {max-width: 25%;}
   #name{font-size: 90%;}
   .parallax-window{max-width: 480px; max-height: 250px}
-  /*#work2 p{max-width: 300px}*/
+  #work-1{position: relative; display: block; float: left;}
 }
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991px) {
@@ -106,6 +106,10 @@ body {
   max-width: 18000px;
 }
 
+html {
+  max-width: 18000px;
+}
+
 #about-ref,
 #work-ref {
   padding-top: 60px;
@@ -160,23 +164,34 @@ i {
   text-align: center;
 }
 
-#work-content li {
+#work-content ul {
   display: inline-block;
   min-width: 800px;
 }
 
+#work-item li {
+  display: inline-block;
+}
+
 #work1 {
-  float: left;
+  position: relative;
+  display: block;
+  border: blue solid 2px;
 }
 
 #work2 {
-  float: right;
   padding: 40px 20px 20px 20px;
+  display: block;
+  width: 500px;
+  max-width: 100%;
+  height: auto;
+  position: relative;
+  border: red solid 2px;
 }
 
 #work-img {
   border-radius: 3px;
-  width: 290px;
+  width: 300px;
   height: 200px;
   max-width: 290px;
   max-height: 200px;
@@ -202,6 +217,7 @@ i {
   margin-right: 50px;
   color: white;
 }
+
 .hidden {
   display: none;
 }
