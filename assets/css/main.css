@@ -1,23 +1,29 @@
-@media (min-width: 200px) and (max-width: 479){
-  html {font-size: 25%; max-width: 480px}
-  img {max-width: 25%;}
-  #name{font-size: 90%;}
-  .parallax-window{max-width: 480px; max-height: 250px}
-  #work-1{position: relative; display: block; float: left;}
-}
-
 /* Extra small devices (phones, up to 480px) */
-@media screen and (max-width: 767px) {
+@media (min-width: 200px) and (max-width: 479px){
+  body {font-size: 20px!important; max-width: auto;}
+  #name {font-size: 90%;}
+  .parallax-window {max-width: 480px; max-height: 250px}
+  #work-1 {position: relative; display: block; float: left;}
+  #contact-list .btn-floating {font-size: 10px; padding: 0px 5px; min-width: 0px;}
+  .devicons{font-size: 20px;}
+  .parallax-window {min-height: 150px !important}
+  #contact-list li {display: inline; margin: 0 5px !important}
+  .parallax-container {height: 175px !important;}
+  #about-ref {padding-top: 15px; padding-bottom: 15px;}
+  #work-ref {padding-top: 15px; padding-bottom: 15px;}
+  h1 {font-size: 3.2rem!important;}
+}
+/*Kinda small devices? (mid-size phones lol)*/
+@media (min-width: 480px) and (max-width: 767px) {
+  body {font-size: 40px!important;}
   html {font-size: 25%; max-width: 480px}
-  img {max-width: 25%;}
   #name{font-size: 90%;}
-  .parallax-window{max-width: 480px; max-height: 250px}
+  .parallax-window{min-height: 250px}
   #work-1{position: relative; display: block; float: left;}
 }
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991px) {
   html {font-size: 50%;}
-  img {max-width: 50%;}
 }
 /* tablets/desktops and up ----------- */
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -110,7 +116,7 @@ html {
   max-width: 18000px;
 }
 
-#about-ref,
+#about-ref
 #work-ref {
   padding-top: 60px;
   padding-bottom: 60px;
@@ -127,9 +133,22 @@ i {
   z-index: 1;
   position: relative;
 }
+
+.devicon {
+  font-size: 100px;
+  text-align: center;
+}
+
+data-image-src {
+  max-width: 100%;
+  height: auto;
+}
+
 .parallax-window {
-    min-height: 500px;
-    background: transparent;
+  min-height: 500px;
+  background: transparent;
+  height: auto;
+  width: 100%;
 }
 
 .navbar-fixed h3 {
@@ -159,10 +178,6 @@ i {
   text-align: center;
 }
 
-.devicon {
-  font-size: 100px;
-  text-align: center;
-}
 
 #work-content ul {
   display: inline-block;
@@ -176,7 +191,6 @@ i {
 #work1 {
   position: relative;
   display: block;
-  border: blue solid 2px;
 }
 
 #work2 {
@@ -186,8 +200,8 @@ i {
   max-width: 100%;
   height: auto;
   position: relative;
-  border: red solid 2px;
 }
+
 
 #work-img {
   border-radius: 3px;
@@ -209,7 +223,21 @@ i {
 
 #contact-list {
   text-align: center;
-  min-width: 640px;
+}
+
+.element:before {
+    content: "\f08c";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+/*--adjust as necessary--*/
+    color: #000;
+    font-size: 18px;
+    padding-right: 0.5em;
+    position: absolute;
+    top: 10px;
+    left: 0;
 }
 
 #copyright {
