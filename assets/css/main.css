@@ -40,7 +40,7 @@ h1 h2 h3 {
   font-family: 'Questrial', sans-serif !important;
 }
 
-nav footer{
+nav footer {
   padding: 0;
   margin: 0 auto;
 }
@@ -123,7 +123,6 @@ html {
 }
 
 i {
-  /*font-size: 20px;*/
   padding-right: 5px
   width: 25px;
 }
@@ -226,6 +225,13 @@ data-image-src {
   max-height: 200px;
 }
 
+#work1 img {
+  border-radius: 3px;
+  width: 300px;
+  height: 200px;
+  max-width: 290px;
+  max-height: 200px;
+}
 
 #contact-list li {
   display: inline;
